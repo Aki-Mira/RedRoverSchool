@@ -20,5 +20,15 @@ public class Main {
        }
        System.out.println("===========");
        System.out.println(str);
+       System.out.println("===========");
+    System.out.println("Введите текст для дешифровки:");
+    System.out.println("(скопируйте и вставьте шифр)");
+       String text1 = sc.nextLine();
+       char[] str1 = text1.toCharArray();
+       for (int i = 0; i < str1.length; i++)  {
+        str1[i] -= dayOfWeek;
+       }
+       System.out.println("===========");
+       System.out.println(str1);
   }
 }
