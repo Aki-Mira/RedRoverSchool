@@ -10,7 +10,7 @@ public class Main {
   public static void main(String[] args) {
     System.out.println("===========");
     Scanner sc = new Scanner(System.in);
-    System.out.println("Введите текст для шифровки");
+    System.out.println("Введите текст для шифровки:");
        String text = sc.nextLine();
        char[] str = text.toCharArray();
        Calendar c = Calendar.getInstance();
@@ -19,6 +19,7 @@ public class Main {
         str[i] += dayOfWeek;
        }
        System.out.println("===========");
+       System.out.println("Ваш шифр:");
        System.out.println(str);
        System.out.println("===========");
     System.out.println("Введите текст для дешифровки:");
@@ -29,6 +30,7 @@ public class Main {
         str1[i] -= dayOfWeek;
        }
        System.out.println("===========");
+       System.out.println("Ваше сообщение:");
        System.out.println(str1);
   }
 }
