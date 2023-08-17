@@ -12,7 +12,7 @@ package JAVA.HW3;
 public class Task2 {
   
   public static void main(String[] args) {
-    int a = 10;
+    int a = 43;
     if (a > 10) {
       System.out.println("больше 10");
     }
@@ -25,8 +25,8 @@ public class Task2 {
     if (5 <= a && a <= 40) {
       System.out.println("значение переменной между 5 и 40 включительно");
     }
-    if (5 > a && a >  40) {
-      System.out.println("значение переменной меньше 5 и больше 40");
+    if (5 > a || a >  40) {
+      System.out.println("значение переменной меньше 5 или больше 40");
     }
   }
 }
