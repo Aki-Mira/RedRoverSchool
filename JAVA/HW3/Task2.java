@@ -19,7 +19,7 @@ public class Task2 {
     if (a < 100) {
       System.out.println("меньше 100");
     }
-    if (a % 2 > 20) {
+    if (a / 2.0 > 20) {
       System.out.println("результат деления на 2 больше 20");
     }
     if (5 <= a && a <= 40) {
