@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(184, 244, 247);
+  } 
+  
+  #header {
+      background-color: aliceblue;
+  }
+  
+  .h1 {
+      font-size: 30px;
+      color: rgb(110, 1, 15);
+      text-align: center;
+      margin: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
