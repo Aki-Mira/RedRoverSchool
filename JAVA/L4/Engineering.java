@@ -1,4 +1,4 @@
-package JAVA.HW3.L4;
+package JAVA.L4;
 
 import java.util.Scanner;
 
