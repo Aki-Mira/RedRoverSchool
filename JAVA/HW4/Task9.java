@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class Task9 {
   public static void main(String[] args) {
-    int [] Array = {2, 5, 9};
+    int [] Array = {2, 15, 9};
     // Arrays.sort(Array);
     int res = 0;
     for (int i = 0; i < Array.length - 1; i++) {
