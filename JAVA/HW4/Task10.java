@@ -16,10 +16,24 @@ import java.util.ArrayList;
 
 public class Task10 {
   public static void main(String[] args) {
-    int n = 10;
+    int n = 3;
     int num1 = 1;
     int num2 = 1;
     ArrayList<Integer> list = new ArrayList<>();
+    if (n == 0) {
+      System.out.println(list.toString());
+    }
+    else if ( n == 1 ) {
+      list.add (num1);
+      System.out.println(list.toString());
+          
+    }
+    else if (n == 2) {
+      list.add (num1);
+      list.add (num2);
+      System.out.println(list.toString());
+    }
+    else {
     list.add (num1);
     list.add (num2);
     //  System.out.println(list.toString());
@@ -31,4 +45,5 @@ public class Task10 {
     }
     System.out.println(list.toString());
   }
+}
 }
