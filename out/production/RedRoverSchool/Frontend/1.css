@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: aquamarine;
+}
+
+.box1 {
+  background-color: rgb(240, 198, 143);
+}
+.box2 {
+  background-color: rgb(145, 145, 71);
+}
+.box3 {
+  background-color: rgb(65, 121, 118);
+}
+.box4 {
+  background-color: rgb(136, 185, 228);
+}
+.box5 {
+  background-color: rgb(172, 136, 82);
+}
+img {
+  width: 100px;
+  float: right;
+}
