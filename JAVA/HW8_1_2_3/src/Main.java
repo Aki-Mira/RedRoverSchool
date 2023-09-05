@@ -56,11 +56,15 @@ public static void main(String[] args) {
     System.out.println(Nastya.getSalary());
     System.out.println(Vasya.getBaseSalary());
     System.out.println(Lusya.getName());
-    Woker Manager = new Woker();
-    Manager.BaseSalary = 865;
-    Manager.NumberOfSubordinates = 50;
-    System.out.println(Manager.getSalary());
-
-
+    Manager NumberOfSubordinatesManager = new Manager();
+    NumberOfSubordinatesManager.setNumberOfSubordinates(50);
+    Woker Manager1 = new Woker();
+    Manager1.BaseSalary = Anya.getBaseSalary();
+    Manager1.NumberOfSubordinates = NumberOfSubordinatesManager.getNumberOfSubordinates();
+    System.out.println(Manager1.getSalary());
+    Director director = new Director();
+    director.BaseSalary = Anya.getBaseSalary();
+    director.NumberOfSubordinates = NumberOfSubordinatesManager.getNumberOfSubordinates();
+    System.out.println(director.getSalary());
     }
 }
