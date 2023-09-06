@@ -1,3 +1,7 @@
+
+import java.util.ArrayList;
+import java.util.List;
+
 //DESCRIPTION:
 //        Задача №1
 //
@@ -66,5 +70,12 @@ public static void main(String[] args) {
     director.BaseSalary = Anya.getBaseSalary();
     director.NumberOfSubordinates = NumberOfSubordinatesManager.getNumberOfSubordinates();
     System.out.println(director.getSalary());
+    List<Employee> stringList = new ArrayList<>();
+    // Добавляем несколько элементов в список
+    stringList.add(Nastya);
+    stringList.add(Lusya);
+    stringList.add(Anya);
+    stringList.add(Vasya);
+    System.out.println(Search.findEmployeeByName(stringList, "Ludmila"));
     }
 }
